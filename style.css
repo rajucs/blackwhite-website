@@ -122,7 +122,7 @@ body{
 .copyright p{
 	border-top: 5px solid lightgrey;
 	overflow: hidden;
-	padding: 20px;
+	padding: 20px 20px;
 	text-align: center;
 	color: #757471;
 }
