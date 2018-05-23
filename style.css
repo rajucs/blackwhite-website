@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(images/img04.jpg);
+}
+.wrapper{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 150px;
+	padding: 70px 0px 0px 20px;
+}
+.navbar{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.navbar ul{
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+.navbar ul li{
+	float: left;
+	/*margin-right: 20px;*/
+}
+.navbar ul li a{
+		/*display: block;*/
+	float: left;
+	height: 50px;
+	margin: 0px;
+	padding: 5px 30px 0px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Nova Mono', cursive;
+	color: #B5B5B5;
+	border: none;
+
+}
+.navbar .active_page a{
+	background: url(images/img02.jpg) no-repeat center bottom;
+}
+.maincontent{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.maincontent .leftcontent{
+	width: 78%;
+	margin: 0;
+	padding: 20px;
+	float: left;
+}
+.maincontent .leftcontent .post h1{
+	padding: 10px 0px 5px 0px;
+}
+.maincontent .leftcontent .post h4{
+	padding-bottom: 20px;
+}
+.maincontent .leftcontent .post p{
+	padding: 10px 0px 5px 0px;
+	text-align: justify;
+}
+.maincontent .leftcontent .post img{
+	float: left;
+	padding: 0px 10px 10px 0px;
+}
+.maincontent .leftcontent .post p{
+	float: right;
+	color: #757471;
+}
+.maincontent .rightcontent{
+	width: 20%;
+	margin: 0;
+	padding: 20px;
+	float: right;
+}
+.rightcontent .sidebar1 h3{
+	border-bottom: 2px solid lightgrey;
+	padding: 10px;
+}
+.rightcontent .sidebar1 p{
+	text-align: justify;
+	padding: 10px;
+}
+.rightcontent .sidebar2 h3{
+	border-bottom: 2px solid lightgrey;
+	padding: 10px;
+}
+.rightcontent .sidebar2 ul li{
+	list-style-position: inside;
+	margin-bottom: 5px;
+}
+.rightcontent .sidebar2 ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+.rightcontent .sidebar2 ul{
+	list-style-image: url(images/img01.jpg);
+}
+.copyright{
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+}
+.copyright p{
+	border-top: 5px solid lightgrey;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+	color: #757471;
+}
